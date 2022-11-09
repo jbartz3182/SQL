@@ -1,0 +1,44 @@
+CREATE TABLE clothing_store (id INTEGER PRIMARY KEY, item TEXT, size TEXT, quantity INTEGER, price INTEGER);
+
+INSERT INTO clothing_store VALUES(1, "Men's T-shirt", "Small", "10", "$10");
+INSERT INTO clothing_store VALUES(2, "Men's T-shirt", "Medium", "3", "$11");
+INSERT INTO clothing_store VALUES(3, "Men's T-shirt", "Large", "7", "$12");
+INSERT INTO clothing_store VALUES(4, "Men's T-shirt", "X-Large", "1", "$13");
+INSERT INTO clothing_store VALUES(5, "Men's T-shirt", "XX-Large", "2", "$14");
+INSERT INTO clothing_store VALUES(6, "Women's T-shirt", "Small", "12", "$8");
+INSERT INTO clothing_store VALUES(7, "Women's T-shirt", "Medium", "9", "$9");
+INSERT INTO clothing_store VALUES(8, "Women's T-shirt", "Large", "6", "$10");
+INSERT INTO clothing_store VALUES(9, "Women's T-shirt", "X-Large", "5", "$11");
+INSERT INTO clothing_store VALUES(10, "Women's T-shirt", "XX-Large", "8", "$12");
+INSERT INTO clothing_store VALUES(11, "Men's Jeans", "Small", "4", "$20");
+INSERT INTO clothing_store VALUES(12, "Men's Jeans", "Medium", "6", "$21");
+INSERT INTO clothing_store VALUES(13, "Men's Jeans", "Large", "10", "$22");
+INSERT INTO clothing_store VALUES(14, "Men's Jeans", "X-Large", "5", "$23");
+INSERT INTO clothing_store VALUES(15, "Men's Jeans", "XX-Large", "8", "$24");
+INSERT INTO clothing_store VALUES(16, "Women's Jeans", "Small", "14", "$16");
+INSERT INTO clothing_store VALUES(17, "Women's Jeans", "Medium", "11", "$17");
+INSERT INTO clothing_store VALUES(18, "Women's Jeans", "Large", "8", "$18");
+INSERT INTO clothing_store VALUES(19, "Women's Jeans", "X-Large", "15", "$19");
+INSERT INTO clothing_store VALUES(20, "Women's Jeans", "XX-Large", "2", "$20");
+INSERT INTO clothing_store VALUES(21, "Men's Shorts", "Small", "12", "$11");
+INSERT INTO clothing_store VALUES(22, "Men's Shorts", "Medium", "9", "$12");
+INSERT INTO clothing_store VALUES(23, "Men's Shorts", "Large", "13", "$13");
+INSERT INTO clothing_store VALUES(24, "Men's Shorts", "X-Large", "18", "$14");
+INSERT INTO clothing_store VALUES(25, "Men's Shorts", "XX-Large", "6", "$15");
+INSERT INTO clothing_store VALUES(26, "Women's Shorts", "Small", "7", "$9");
+INSERT INTO clothing_store VALUES(27, "Women's Shorts", "Medium", "17", "$10");
+INSERT INTO clothing_store VALUES(28, "Women's Shorts", "Large", "10", "$11");
+INSERT INTO clothing_store VALUES(29, "Women's Shorts", "X-Large", "18", "$12");
+INSERT INTO clothing_store VALUES(30, "Women's Shorts", "XX-Large", "6", "$13");
+
+//Displaying database in order of "Price"//
+SELECT * FROM clothing_store
+ORDER BY price;
+
+//Displaying the price of a specific size of item//
+SELECT item, price
+FROM clothing_store
+WHERE size = "XX-Large";
+
+//Displaying quantity of all sizes//
+SELECT size, SUM(quantity)AS total FROM clothing_store GROUP BY size;
