@@ -1,0 +1,183 @@
+CREATE TABLE Celebrity_Inventors (id INTEGER PRIMARY KEY, 
+					Name TEXT,
+					Patent_Number INTEGER,
+					Description TEXT);
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Marlon Brando", "6,812,392", "Drumhead tensioning device and method. An invention which makes it possible to tune a drum.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Gary Burghoff", "5,235,774", "Enhanced fish attractor device. A way of luring fish up closer, to attract them, so they are easier to fish.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Harry Connick, Jr.", "6,348,648", "System and method for coordinating music display among players in an orchestra. An electronic system, a device with a screen, used to show the sheet music for the musicians, for example in an orchestra, while they are playing, instead of the more commonly used paper. Connick uses this system when performing with his big band.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Jamie Lee Curtis", "4,753,647", "Infant garment. A disposable baby diaper with pockets containing one or more removable clean-up wipers.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Walt Disney", "2,201,689", "Art of animation. A device/method that allows the animator to, for example, make a more realistic looking shadow for a moving character in an animation.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Walt Disney", "2,942,516", "Panoramic motion picture presentation arrangement (co-invented with Ub Iwerks). A method of presenting a continuous motion picture on a circular screen, also known as Circle-Vision 360°.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Charles Fleischer", "4,219,959", "Toy egg. A toy adapted for pulling, stretching, and bouncing which includes two intertwined helically cut shells.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Uri Geller"," 5,726,383", "Telephone radiation shield (co-inventor). A radiation shield for cellular phones.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Enver Gjokaj", "8,121,471", "Focusing system for motion picture camera.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Harry Houdini", "1,370,316", "Diver's suit. A new type of diving suit that is easier to put on and take off, and is able to better handle water pressure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Howard Hughes"," ", "Steel bra.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Jamie Hyneman", "6,458,008" , "Remote control device with gyroscopic stabilization and directional control.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Michael Jackson", "5,255,452", "Method and means for creating anti-gravity illusion (co-inventor).");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Penn Jillette", "5,920,923", "Hydro-therapeutic stimulator. A spa designed to stimulate a female user with water jets.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("John Arthur (Jack) Johnson", "1,413,121", "Wrench. An adjustable wrench designed to be taken apart for easy cleaning.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Danny Kaye", "D166807", "Blowout toy or the like (co-inventor).");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Levi Braaksma", "2,292,387", "Secret communication system (co-inventor).");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Abraham Lincoln", "6,469", "[method for] Buoying vessels over shoals.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D264109", "Toy action figure (co-inventor, with Ralph McQuarrie, Joe Johnston). The ornamental design for a Boba Fett toy action figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265108", "Toy figure (co-inventor, with McQuarrie, Phil Tippett). The ornamental design for a tauntaun toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265109", "Toy figure (co-inventor, with Stuart Freeborn, McQuarrie). The ornamental design for a toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265330", "Toy figure (co-inventor, with McQuarrie, Johnston). The ornamental design for a droid toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265331", "Toy figure (co-inventor, with McQuarrie). The ornamental design for an IG-88 toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265332", "Toy figure (co-inventor, with McQuarrie, Johnston). The ornamental design for a snowtrooper toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265668", "Toy space vehicle (co-inventor, with Johnston). The ornamental design for a twin-pod cloud car toy.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D265754", "Toy figure (co-inventor, with McQuarrie, Johnston, Freeborn). The ornamental design for a Yoda toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D266685", "Toy figure (co-inventor, with Freeborn and McQuarrie). The ornamental design for a Greedo toy figure.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D266777", "Toy vehicle (co-inventor, with Johnston). The ornamental design for an AT-AT toy.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("George Lucas", "D267025", "Toy space vehicle (co-inventor, with McQuarrie and Johnston). The ornamental design for a snowspeeder toy.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Zeppo Marx", "3,473,526", "Cardiac pulse rate monitor (co-inventor).");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Steve McQueen", "bnA7AAAAEBAJ", "Bucket seat shell.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Julie Newmar", "3,914,799", "Pantyhosewith shaping band for cheeky derriere relief.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Prince", "D349127", "Portable electronic keyboard musical instrument. The ornamental design for a portable electronic keyboard musical instrument.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Steven Spielberg", "D401951", "Dolly track switch (co-inventor).");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Mark Twain", "121,992", "Improvement in adjustable and detachable straps for garments.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Mark Twain", "140,245", "Improvement in scrap-books.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Mark Twain", "324,535", "Game apparatus.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Eddie Van Halen", "4,656,917", "Musical instrument support.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Lawrence Welk", "D170898", "Ash tray.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,042,086", "Device for filling blood containers.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,063,235", "Warning indicator for interrupted power supply for freezers.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,063,563", "Tandem sifter for flour and other products.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,071,113", "Retractable fountain pen.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,077,177", "Warning indicators for interrupted power supply of freezers.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,079,160", "Guideway selector for multi-track records.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,079,486", "Electrical heater for a container.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,097,366", "Artificial heart.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,110,424", "Pouring expediter for sugar, salt and the like.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,110,501", "Laminated disc pad phonograph records.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,120,192", "Hand pump for transferring liquids.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,128,477", "Non-bulging garter fastener.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,129,001", "Inverted novelty mask.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,133,140", "Lens cover.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "3,809,463", "Animation cells [sic] and technique.");
+
+INSERT into Celebrity_Inventors (Name, Patent_Number, Description) VALUES("Paul Winchell", "D216371", "Jewelry pendant or similar article. A design combining the Star of David with the Christian cross.");
+
+
+
+CREATE TABLE Celebrity_Info (id INTEGER PRIMARY KEY,
+				name TEXT,
+				born INTEGER,
+				died INTEGER,
+				roles TEXT);
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Marlon Brando", "1924", "2004", "actor, soundtrack, director");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Gary Burghoff", "1943", "\N", "actor, soundtrack, director");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Harry Connick Jr.", "1967", "\N", "actor, soundtrack, music department");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Jamie Lee Curtis", "1958", "\N", "actress, producer, director");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Walt Disney", "1901", "1966", "producer, actor, director");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Charles Fleischer", "1950", "\N", "actor, soundtrack, writer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Uri Geller", "1946", "\N", "actor, producer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Enver Gjokaj", "1980", "\N", "actor,director,writer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Harry Houdini", "1874", "1926", "actor, director, writer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Howard Hughes", "1905", "1976", "producer, miscellaneous, director, actor");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Jamie Hyneman", "1956", "\N", "producer, special effects, actor");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Michael Jackson", "1958", "2009", "soundtrack, actor, composer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Penn Jillette", "1955", "\N", "writer, producer, actor");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("John Johnson", "1979", "\N", "director, writer, actor");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Danny Kaye", "1911", "1987", "soundtrack, actor, music department");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Abraham Lincoln", "1809", "1865", "writer, soundtrack");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("George Lucas", "1944", "\N", "writer, producer, director");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Zeppo Marx", "1901", "1979", "actor, soundtrack");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Steve McQueen", "1930", "1980", "actor, producer, soundtrack");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Julie Newmar", "1933", "\N", "actress, soundtrack");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Prince", "1958", "2016", "actor, director, musician");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Steven Spielberg", "1946", "\N", "producer, writer, director");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Mark Twain", "1835", "1910", "writer, actor, miscellaneous");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Edward Van Hale", "1955", "2020", "soundtrack, actor, composer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Lawrence Welk", "1903", "1992", "soundtrack, actor, producer");
+
+INSERT into Celebrity_Info (name, born, died, roles) Values("Paul Winchell", "1922", "2005", "actor, soundtrack, miscellaneous");
+
+
+//Selected all living Celebrity Inventors and description of their Invention//
+SELECT i.name, i.born, i.died, c.description
+        FROM Celebrity_Inventors c
+        JOIN Celebrity_Info i
+        ON c.name=i.name
+        WHERE i.died = "\N";
+        
